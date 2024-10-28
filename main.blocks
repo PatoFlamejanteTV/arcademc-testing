@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=":Y8_!v~/lE=BQ1@hyj4U">BG_SKY_RAW</variable><variable id="l4RsF0Se=C#ko6?/z}]~">BG_PART_1_RAW</variable><variable id="P^9gjt9SaG6ISV!2Qb!;">mySprite</variable><variable id="{DWJ!UZ4ng.:NWvFAY#s">BG_SKY</variable><variable type="KIND_SpriteKind" id="lsg?O(B:`OXP;]iuEvHp">Player</variable><variable type="KIND_SpriteKind" id="-bjPKhvBN`nR+Gh6|nfL">Projectile</variable><variable type="KIND_SpriteKind" id="~Cc3sd`04*;[lrvz)Eu`">Food</variable><variable type="KIND_SpriteKind" id="n{VY^E#y{6l6m_d;#A}s">Enemy</variable><variable type="KIND_SpriteKind" id="iJODV4`tTbB:veJb2dXu">Text</variable><variable type="KIND_SpriteKind" id="]ZmFlALlpp_{N6o[n`PY">BG</variable></variables><block type="pxt-on-start" id="~*uWN~T4I/EGjHSPTi}$" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="J.z^IAG?:b8Z_9lLh)Jy"><field name="VAR" id=":Y8_!v~/lE=BQ1@hyj4U">BG_SKY_RAW</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="nT(^8-f,[lL-R#3EoK=4"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"l:Pw!t-Zn-YPHr4-TYit"}}</data></shadow><block type="screen_image_picker" id="2TBwNIh)qAHvCRqbV[nI"><field name="img">assets.image`BG_SKY`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image2"}}</data></block></value><value name="kind"><shadow type="spritekind" id="03g@JTK/:DMIIeCAqg+-"><field name="MEMBER">BG</field></shadow></value></block></value><next><block type="variables_set" id="-kwSddfGr-zR12MrRmwI"><field name="VAR" id="l4RsF0Se=C#ko6?/z}]~">BG_PART_1_RAW</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="s[T6+%u[%9*c,Tn_w|/u"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"-}}rT0*.sB0W,)b{$q:M"}}</data></shadow><block type="screen_image_picker" id="rj;|859)W|w64[Q*ld8d"><field name="img">assets.image`BG_PART_1`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></block></value><value name="kind"><shadow type="spritekind" id="jrbyA(uBAD9_JCurF1`n"><field name="MEMBER">BG</field></shadow></value></block></value><next><block type="sprite_set_scale" id="Ce^-=piGCD|HHv!MS;Yd"><field name="anchor">ScaleAnchor.Middle</field><value name="sprite"><block type="variables_get" id="8B#O[:`wBsScW:.Of`I~"><field name="VAR" id="l4RsF0Se=C#ko6?/z}]~">BG_PART_1_RAW</field></block></value><value name="value"><shadow type="math_number" id="QTLOSO%|_{04tEZK,^Vv"><field name="NUM">1.5</field></shadow></value></block></next></block></next></block></statement></block><block type="forever" id=")+=;!(NXcH!:A?pBN/s4" x="10" y="270"><statement name="HANDLER"><block type="Sprite_blockCombine_change" id="QulXnC?nXx,=@0tlkiM|"><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get" id="ByZ=#V:522ZSGiHsR+Zj"><field name="VAR" id="l4RsF0Se=C#ko6?/z}]~">BG_PART_1_RAW</field></block></value><value name="value"><shadow type="math_number" id="L:El!:3%t?jzEgpS84K;"><field name="NUM">-1</field></shadow></value></block></statement></block></xml>
